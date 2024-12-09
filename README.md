@@ -28,19 +28,35 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+/* 1.Type the Verilog program in Quartus Prime to implement the 4-bit Serial-In
+Serial Out (SISO) Shift Register. 2.Compile and run the program to ensure the design is
+error-free. 3.Generate the RTL schematic to visualize the cascading D flip-flop
+connections and save it for documentation. 4.Create nodes for the serial input (SI), clock
+(CLK), and serial output (SO) to observe the shifting process during simulation.
+5.Simulate the design for different input serial data patterns and observe the timing
+diagrams. */
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:Ryan David Prasad RegisterNumber:24004080
 */
+
+![image](https://github.com/user-attachments/assets/99f703ec-79af-494a-ba17-322ecd30a7e9)
 
 **RTL LOGIC UP COUNTER**
 
+![image](https://github.com/user-attachments/assets/04a2b995-63cb-4a32-9ef8-64f7401bb4e1)
+
 **TIMING DIAGRAM FOR IP COUNTER**
+
+![image](https://github.com/user-attachments/assets/edd37bc6-2653-41f9-8eef-32a17a42e696)
 
 **TRUTH TABLE**
 
+![image](https://github.com/user-attachments/assets/fcbc70b6-95c5-4144-96b1-13078c3ce764)
+
 **RESULTS**
+Thus, the 4-bit Ripple Counter was successfully implemented, and its functionality was
+validated using the truth table.
